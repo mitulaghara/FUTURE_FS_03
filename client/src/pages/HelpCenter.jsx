@@ -28,18 +28,18 @@ const HelpCenter = () => {
     ];
 
     return (
-        <div className="min-h-screen bg-gray-50 pt-24 pb-12">
+        <div className="min-h-screen bg-white pt-24 pb-12">
             {/* Hero Section */}
-            <div className="bg-dark text-white py-16 mb-12">
+            <div className="bg-gradient-to-br from-orange-50 to-amber-50 border-b border-orange-100 py-16 mb-12">
                 <div className="container mx-auto px-6 text-center">
-                    <h1 className="text-4xl font-bold mb-4">How can we help you?</h1>
-                    <p className="text-gray-400 mb-8">Search for answers or browse our help topics.</p>
+                    <h1 className="text-4xl font-bold mb-4 text-dark">How can we help you?</h1>
+                    <p className="text-gray-500 mb-8">Search for answers or browse our help topics.</p>
                     <div className="max-w-xl mx-auto relative">
                         <Search className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
                         <input
                             type="text"
                             placeholder="Search for answers..."
-                            className="w-full pl-12 pr-4 py-3 rounded-lg bg-gray-800 border border-gray-700 text-white focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all"
+                            className="w-full pl-12 pr-4 py-3 rounded-lg bg-white border border-orange-200 text-dark focus:outline-none focus:border-primary focus:ring-2 focus:ring-primary/20 transition-all shadow-sm"
                         />
                     </div>
                 </div>

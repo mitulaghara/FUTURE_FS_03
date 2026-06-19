@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-light text-dark font-sans;
+    @apply bg-white text-dark font-sans;
   }
 }
 
@@ -76,9 +76,10 @@
 }
 
 .glass-nav {
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(249, 115, 22, 0.12);
+  box-shadow: 0 1px 20px rgba(0, 0, 0, 0.06);
 }
 
 .product-card {
@@ -91,7 +92,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #EA580C 0%, #047857 100%);
+  background: linear-gradient(135deg, #F97316 0%, #EA580C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;

@@ -7,15 +7,16 @@ export default {
     theme: {
         extend: {
             colors: {
-                primary: '#EA580C',
-                secondary: '#047857',
-                dark: '#1F2937',
-                light: '#F3F4F6',
+                primary: '#F97316',
+                secondary: '#64748B',
+                dark: '#111827',
+                light: '#FFFFFF',
+                muted: '#F8FAFC',
                 indigo: {
-                    50: '#fff7ed',
+                    50:  '#fff7ed',
                     100: '#ffedd5',
                     200: '#fed7aa',
-                    300: '#fdbb74',
+                    300: '#fdba74',
                     400: '#fb923c',
                     500: '#f97316',
                     600: '#ea580c',
