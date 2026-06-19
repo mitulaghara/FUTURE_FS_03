@@ -25,6 +25,7 @@ import AuthPage from './pages/AuthPage';
 import ProductDetail from './pages/ProductDetail';
 import Checkout from './pages/Checkout';
 import ProtectedRoute from './components/ProtectedRoute';
+import ScrollToTop from './components/ScrollToTop';
 
 function AppContent() {
   const location = useLocation();
@@ -52,6 +53,7 @@ function AppContent() {
 
   return (
     <div className="min-h-screen bg-light font-sans text-dark">
+      <ScrollToTop />
       <Toaster position="top-center" reverseOrder={false} />
       <Routes>
         {/* Public Routes */}
