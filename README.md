@@ -74,13 +74,6 @@ Start the development server:
 npm run dev
 ```
 
-## 🔐 Admin Access
-
-- **Email:** `admin@indiankart.com`
-- **Password:** `Aghara@2005`
-
-> **Note:** On first run with a fresh database, visit `https://indiankart-api.vercel.app/api/seed` to seed sample products.
-
 ## 🌐 Deployment
 
 The application is deployed on **Vercel**.
